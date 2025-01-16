@@ -1,0 +1,52 @@
+{
+    "users": [
+        {
+            "id": 2122,
+            "name": "mohamed",
+            "history": [
+                {
+                    "date": "2025-01-09",
+                    "score": 6,
+                    "category": "Algorithmique"
+                }
+            ]
+        },
+        {
+            "id": 144,
+            "name": "nassim",
+            "history": []
+        },
+        {
+            "id": 2312,
+            "name": "Adam",
+            "history": [
+                {
+                    "date": "2025-01-14",
+                    "score": 15,
+                    "category": "Intelligence Artificielle"
+                }
+            ]
+        },
+        {
+            "id": 2225,
+            "name": "nouna",
+            "history": [
+                {
+                    "date": "2025-01-14",
+                    "score": 6,
+                    "category": "Cyber Security"
+                },
+                {
+                    "date": "2025-01-14",
+                    "score": 0,
+                    "category": "Algorithmique"
+                }
+            ]
+        },
+        {
+            "id": "2223",
+            "name": "LOUISA",
+            "history": []
+        }
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "categories": {
+      "Algorithmique": [
+        {
+          "question": "Quel est l'objectif principal d'un algorithme de tri ?",
+          "options": ["a) Trouver un élément", "b) Organiser les données", "c) Supprimer des doublons", "d) Réduire les données"],
+          "answer": "b"
+        },
+        {
+          "question": "Quelle est la complexité moyenne de l'algorithme de tri rapide (QuickSort) ?",
+          "options": ["a) O(n^2)", "b) O(n log n)", "c) O(n)", "d) O(log n)"],
+          "answer": "b"
+        },
+        {
+          "question": "Quel est un exemple d'algorithme diviser pour régner ?",
+          "options": ["a) Tri par insertion", "b) Tri par fusion", "c) Recherche linéaire", "d) Tri par sélection"],
+          "answer": "b"
+        },
+        {
+            "question": " Quelle est la complexité dans le pire cas de la recherche binaire ?",
+            "options": ["a) O(1)", "b)O(log n)", "c) O(n)", "d) O(n log n)"],
+            "answer": "b"
+          },
+          {
+            "question": " Quel est l'algorithme de parcours utilisé pour explorer un graphe de manière exhaustive en profondeur ?",
+            "options": ["a) Parcours en largeur (BFS)", "b)Parcours en profondeur (DFS) ", "c)  Algorithme de Dijkstra", "d) Algorithme de Kruskal"],
+            "answer": "b"
+          },
+          {
+            "question": "Quel algorithme est utilisé pour trouver le plus court chemin dans un graphe pondéré ?",
+            "options": ["a)Algorithme de Bellman-Ford ", "b)  Algorithme de Kruskal", "c) Algorithme de Floyd-Warshall ", "d)  Algorithme de Prim"],
+            "answer": "a"
+          },
+          {
+            "question": "Quel algorithme est un exemple d'algorithme glouton ?",
+            "options": ["a) Tri rapide ", "b) Tri par insertion ", "c)Algorithme de Huffman", "d) Recherche dichotomique "],
+            "answer": "c"
+          },
+          {
+            "question": "Quel algorithme est utilisé pour trier un tableau en divisant les éléments et en les fusionnant ?",
+            "options": ["a) Tri à bulles", "b) Tri par sélection", "c) Tri par fusion", "d)Tri par insertion"],
+            "answer": "c"
+          },
+          {
+            "question": "Quel type de structure de données est utilisée pour implémenter un parcours DFS ?",
+            "options": ["a) File", "b) Liste chaînée", "c)Tableau", "d)Pile "],
+            "answer": "d"
+          },
+          {
+            "question": "L'algorithme de Dijkstra ne fonctionne pas correctement avec :",
+            "options": ["a)  Les graphes non pondérés", "b) Les graphes dirigés ", "c)Les graphes avec des poids négatifs", "d) Les graphes connexes"],
+            "answer": "c"
+          },
+          {
+            "question": "Quel algorithme est utilisé pour détecter les cycles dans un graphe non orienté ?",
+            "options": ["a)Parcours DFS ", "b)Algorithme de Kruskal ", "c)Algorithme de Dijkstra", "d) Algorithme de Floyd-Warshall"],
+            "answer": "a"
+          },
+          {
+            "question": " Quel est l'objectif principal d'un arbre de décision ?",
+            "options": ["a) Maximiser les données", "b)Trier les éléments ", "c) Prendre des décisions basées sur des conditions", "d) Organiser un graphe"],
+            "answer": "c "
+          },
+          {
+            "question": "Quel est l'avantage principal de l'algorithme de tri par tas (Heap Sort) ?",
+            "options": ["a) Sa simplicité", "b) Son utilisation d'une structure de graphe", "c)Son usage de récursion", "d) Sa complexité garantie de O(n log n) "],
+            "answer": "d"
+          },
+          {
+            "question": " L'algorithme de Prim est utilisé pour :",
+            "options": ["a)Trouver un arbre couvrant minimum ", "b) Trouver le plus court chemin ", "c)Trier les éléments", "d) Parcourir un graphe"],
+            "answer": "a"
+          },
+          {
+            "question": "Quel est le concept clé de la programmation dynamique ?",
+            "options": ["a) Diviser pour régner ", "b) Résolution d'un problème en sous-problèmes indépendants", "c)Résolution d'un problème en mémorisant les solutions aux sous-problèmes", "d)Approche gloutonne "],
+            "answer": "c"
+          }
+      ]
+    
+    }
+}
