@@ -76,6 +76,83 @@
             "options": ["a) Diviser pour régner ", "b) Résolution d'un problème en sous-problèmes indépendants", "c)Résolution d'un problème en mémorisant les solutions aux sous-problèmes", "d)Approche gloutonne "],
             "answer": "c"
           }
+      ],
+      "Mathematique": [
+        {
+          "question": "Quel est le résultat de la dérivée de x^2 ?",
+          "options": ["a) 1", "b) 2x", "c) x^2", "d) 0"],
+          "answer": "b"
+        },
+        {
+          "question": "Quel est le logarithme naturel de 1 ?",
+          "options": ["a) 0", "b) 1", "c) 10", "d) Infini"],
+          "answer": "a"
+        },
+        {
+          "question": "Quel est le produit de la matrice identité avec elle-même ?",
+          "options": ["a) Une matrice nulle", "b) Une matrice identité", "c) Une matrice diagonale", "d) Une matrice inversée"],
+          "answer": "b"
+        },
+        {
+            "question": "Quelle est la dérivée de sin(x) ?",
+            "options": ["a) cos(x)", "b) -sin(x)", "c) -cos(x)", "d) tan(x)"],
+            "answer": "a"
+         },
+          {
+            "question": "Quelle est la valeur de π (pi) approximée à deux décimales près ?",
+            "options": ["a) 3.18", "b) 3.15", "c) 3.13", "d) 3.14"],
+            "answer": "d"
+          },
+          {
+            "question": "Quelle est l'intégrale de 1/x ?",
+            "options": ["a) ln(x)", "b) x^2", "c) x", "d) 1/(2x)"],
+            "answer": "a"
+          },
+          {
+            "question": "Combien vaut la somme des angles d’un triangle ?",
+            "options": ["a) 90°", "b) 180°", "c) 270°", "d) 360°"],
+            "answer": "b"
+          },
+          {
+            "question": "Quel est le produit scalaire de deux vecteurs orthogonaux ?",
+            "options": ["a) Indéfini ", "b) 1", "c) 0", "d)-1"],
+            "answer": "a"
+          },
+          {
+            "question": "Quelle est la solution de l'équation : x^2 - 4 = 0 ?",
+            "options": ["a) x = 2", "b) x = -2", "c) x = ±2", "d) Aucune"],
+            "answer": "c"
+          },
+          {
+            "question": "Quelle est la valeur de e^0 ?",
+            "options": ["a) 0", "b) 1", "c) e", "d) Indéfini"],
+            "answer": "b"
+          },
+          {
+            "question": "Comment appelle-t-on un polygone à 5 côtés ?",
+            "options": ["a) Pentagone", "b) Hexagone", "c) Heptagone", "d) Octogone"],
+            "answer": "a"
+          },
+          {
+            "question": "Quel est le résultat de 2^3 ?",
+            "options": ["a) 6", "b) 16", "c) 9", "d) 8"],
+            "answer": "d"
+          },
+          {
+            "question": "Quelle est la dérivée de x^3 ?",
+            "options": ["a) x^2", "b) 3x^2", "c) 2x^3", "d) 3x^3"],
+            "answer": "b"
+          },
+          {
+            "question": "Quel est le déterminant d'une matrice identité 2x2 ?",
+            "options": ["a) 0", "b) 2", "c) 1", "d) Indéfini"],
+            "answer": "1"
+          },
+          {
+            "question": "Quel est le nombre d'or, approximé à deux décimales près ?",
+            "options": ["a) 1.62", "b) 1.41", "c) 1.73", "d) 1.00"],
+            "answer": "a"
+          }
       ]
     
     }
