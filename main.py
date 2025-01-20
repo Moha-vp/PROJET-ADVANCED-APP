@@ -34,7 +34,9 @@ def update_user_history(user, score, category):
         "category": category
     })
 
-# Select category
+
+    # Select category                
+
 category = input("Choose a category (Algorithmique, Mathematique, Culture Générale,Intelligence Artificielle,Cyber Security): ")
 questions = questions_data["categories"].get(category, [])
 

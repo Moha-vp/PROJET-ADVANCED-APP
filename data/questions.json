@@ -1,5 +1,83 @@
 {
     "categories": {
+     
+      "Intelligence Artificielle": [
+        {
+          "question": "Qu'est-ce que l'Intelligence Artificielle (IA) ?",
+          "options": ["a) Un système informatique capable d'apprendre et de s'adapter", "b) Un programme qui exécute des instructions statiques", "c) Une méthode pour stocker des données", "d) Un type de matériel"],
+          "answer": "a"
+        },
+        {
+          "question": "Quel est l'objectif principal de l'apprentissage supervisé ?",
+          "options": ["a) Découvrir des motifs cachés", "b) Prédire des résultats à partir de données étiquetées", "c) Optimiser les ressources matérielles", "d) Créer des algorithmes de tri"],
+          "answer": "b"
+        },
+        {
+          "question": "Quelle méthode d'apprentissage est utilisée sans étiquettes ?",
+          "options": ["a) Apprentissage supervisé", "b) Apprentissage non supervisé", "c) Apprentissage par renforcement", "d) Apprentissage supervisé semi-automatique"],
+          "answer": "b"
+        },
+        {
+          "question": "Qu'est-ce qu'un réseau de neurones artificiels (ANN) ?",
+          "options": ["a) Une base de données", "b) Une architecture matérielle", "c) Un modèle inspiré du cerveau humain", "d) Un algorithme de tri"],
+          "answer": "c"
+        },
+        {
+          "question": "Quel langage de programmation est largement utilisé pour le développement en IA ?",
+          "options": ["a) Python", "b) C", "c) Java", "d) PHP"],
+          "answer": "a"
+        },
+        {
+          "question": "Quel est le rôle d'une fonction de perte dans un modèle d'IA ?",
+          "options": ["a) Optimiser la vitesse d'exécution", "b) Évaluer la performance du modèle", "c) Stocker les résultats", "d) Augmenter les données"],
+          "answer": "b"
+        },
+        {
+          "question": "Quel est l'objectif de l'apprentissage par renforcement ?",
+          "options": ["a) Maximiser une récompense en prenant des actions", "b) Trier des données", "c) Réduire le bruit dans un dataset", "d) Découvrir des motifs cachés"],
+          "answer": "a"
+        },
+        {
+          "question": "Qu'est-ce qu'un algorithme de clustering en IA ?",
+          "options": ["a) Un algorithme pour prédire des valeurs", "b) Un algorithme pour regrouper des données similaires", "c) Un algorithme pour optimiser les hyperparamètres", "d) Un algorithme de tri"],
+          "answer": "b"
+        },
+        {
+          "question": "Quel framework est utilisé pour l'apprentissage automatique ?",
+          "options": ["a) TensorFlow", "b) Flask", "c) Django", "d) React"],
+          "answer": "a"
+        },
+        {
+          "question": "Quelle technique permet de réduire le surapprentissage (overfitting) ?",
+          "options": ["a) Utiliser un dataset plus grand", "b) Réduire les données d'entraînement", "c) Ne pas utiliser de validation croisée", "d) Ajouter du bruit dans les données"],
+          "answer": "a"
+        },
+        {
+          "question": "Qu'est-ce qu'une couche convolutive dans un réseau de neurones ?",
+          "options": ["a) Une couche pour augmenter les données", "b) Une couche pour extraire des caractéristiques", "c) Une couche de sortie finale", "d) Une couche pour optimiser les poids"],
+          "answer": "b"
+        },
+        {
+          "question": "Qu'est-ce qu'une donnée d'entrée dans l'apprentissage supervisé ?",
+          "options": ["a) Un résultat attendu", "b) Une étiquette", "c) Une information utilisée pour entraîner le modèle", "d) Une métrique d'évaluation"],
+          "answer": "c"
+        },
+        {
+          "question": "Qu'est-ce qu'une fonction d'activation dans un réseau de neurones ?",
+          "options": ["a) Une fonction pour normaliser les données", "b) Une fonction pour décider si un neurone doit s'activer", "c) Une fonction pour optimiser les gradients", "d) Une fonction pour augmenter les données"],
+          "answer": "b"
+        },
+        {
+          "question": "Quelle technique est utilisée pour générer des données artificielles en IA ?",
+          "options": ["a) GAN (Generative Adversarial Networks)", "b) Régression logistique", "c) K-Means", "d) Backpropagation"],
+          "answer": "a"
+        },
+        {
+          "question": "Qu'est-ce qu'un modèle de langage (Language Model) en IA ?",
+          "options": ["a) Un modèle pour comprendre et générer du texte", "b) Un modèle pour prédire des valeurs numériques", "c) Un modèle pour trier des données", "d) Un modèle pour détecter des anomalies"],
+          "answer": "a"
+        }
+      ],
       "Algorithmique": [
         {
           "question": "Quel est l'objectif principal d'un algorithme de tri ?",
@@ -77,6 +155,7 @@
             "answer": "c"
           }
       ]
+      
     
     }
 }
