@@ -34,25 +34,54 @@ def update_user_history(user, score, category):
         "category": category
     })
 
-     # Select category
-category = input("Choose a category (Algorithmique, Mathematique, Culture Générale,Intelligence Artificielle,Cyber Security): ")
-questions = questions_data["categories"].get(category, [])
-
-if not questions:
-    print("Invalid category selected.")
-else:
-    score = quiz_user(questions)
-    print(f"Your score: {score}/{len(questions)}")
-    update_user_history(user, score, category)
-
-# Save data
-save_users(users_file, users_data)
-
 def load_questions(file_path):
     with open(file_path, 'r') as file:
         return json.load(file)
-
-      
+    
+    '''
+    score = 0
+    for question in questions:
+        print(question["question"])
+        for option in question["options"]:
+            print(option)
+            
+        answer = None
+        
+        timer = threading.Timer(30.0, lambda: None)
+        timer.start()
+        start_time = time.time()
+        
+       # while time.time() - start_time < 30 and answer is None:
+       #  answer = input("Your answer (a/b/c/d): ")
+         
+       # timer.cancel()
+       # if answer == question["answer"]:
+       #     score += 1
+       # elif answer is None:
+       #     print("Time's up! Moving to the next question.")
+       # start_time = time.time()
+        
+        print("You have 30 seconds to answer:")
+        while time.time() - start_time < 30 :
+            if not answer:
+             remaining_time = 30 - int(time.time() - start_time)
+             print(f"Time remaining: {remaining_time} seconds", end="\r")
+            else:
+             answer = input("\nYour answer (a/b/c/d): ").strip().lower()
+             timer.cancel()
+           # answer = input("\nYour answer (a/b/c/d): ").strip().lower()
+            if answer in ['a', 'b', 'c', 'd']:
+             break
+        
+      #  if not answer:
+       #     print("\nTime's up! Moving to the next question.")
+        #    start_time = time.time()
+        #elif answer == question["answer"]:
+         #   print("Correct!")
+          #  score += 12225
+        #else:
+         #   print(f"Wrong! The correct answer was {question['answer']}.")
+    return score'''
 def quiz_user(questions):
     score = 0
     total_questions = len(questions)
@@ -110,12 +139,9 @@ def quiz_user(questions):
     print(f"Final Score: {score}/{total_questions} ({percentage:.1f}%)")
     
     return score
- 
-       
-    #----------------------------------------anis-------------------------------------------------------#
-    # File Paths
+# File Paths
 users_file = "data/users.json"
-questions_file = "data/questions.json"
+questions_file ="data/questions.json"
 
 # Load users and questions
 users_data = load_users(users_file)
@@ -134,3 +160,17 @@ else:
     name = input("You are new here! Enter your name: ")
     user = add_new_user(users_data, user_id, name)
     print(f"Welcome, {name}! Your profile has been created.")
+
+# Select category
+category = input("Choose a category (Algorithmique, Mathematique, Culture Générale,Intelligence Artificielle,Cyber Security): ")
+questions = questions_data["categories"].get(category, [])
+
+if not questions:
+    print("Invalid category selected.")
+else:
+    score = quiz_user(questions)
+    print(f"Your score: {score}/{len(questions)}")
+    update_user_history(user, score, category)
+
+# Save data
+save_users(users_file, users_data)
