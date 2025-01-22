@@ -230,6 +230,83 @@
             "options": ["a) 1.62", "b) 1.41", "c) 1.73", "d) 1.00"],
             "answer": "a"
           }
+      ],
+      "Culture Generale": [
+        {
+          "question": "Qui est considéré comme le père de l'informatique ?",
+          "options": ["a) Alan Turing", "b) Ada Lovelace", "c) Charles Babbage", "d) John von Neumann"],
+          "answer": "c"
+        },
+        {
+          "question": "En quelle année le langage Python a-t-il été créé ?",
+          "options": ["a) 1980", "b) 1991", "c) 2000", "d) 2010"],
+          "answer": "b"
+        },
+        {
+          "question": "Quelle est la base du système binaire ?",
+          "options": ["a) 10", "b) 2", "c) 8", "d) 16"],
+          "answer": "b"
+        },
+        {
+            "question": "Qui a inventé le World Wide Web (WWW) ?",
+            "options": ["a) Alan Turing", "b) Tim Berners-Lee", "c) Bill Gates", "d) Steve Jobs"],
+            "answer": "b"
+          },
+          {
+            "question": "Quel est le langage de programmation utilisé pour développer Linux ?",
+            "options": ["a) C", "b) Java", "c) Python", "d) C++"],
+            "answer": "a"
+          },
+          {
+            "question": "Quel était le premier ordinateur programmable ?",
+            "options": ["a) ENIAC", "b) Colossus", "c) Zuse Z3", "d) IBM 360"],
+            "answer": "c"
+          },
+          {
+            "question": "Quelle entreprise a développé le système d'exploitation Windows ?",
+            "options": ["a) Microsoft", "b) Apple", "c) IBM", "d) Google"],
+            "answer": "a"
+          },
+          {
+            "question": "Quel est l'objectif principal du protocole TCP/IP ?",
+            "options": ["a) Transférer des fichiers", "b) Gérer les connexions réseau", "c) Protéger les données", "d) Crypter les communications"],
+            "answer": "b"
+          },
+          {
+            "question": "En quelle année a été publié le premier iPhone ?",
+            "options": ["a) 2007", "b) 2005", "c) 2009", "d) 2010"],
+            "answer": "a"
+          },
+          {
+            "question": "Quel est le rôle principal d'un compilateur ?",
+            "options": ["a) Exécuter le code", "b) Traduire le code source en code machine", "c) Déboguer les programmes", "d) Optimiser le matériel"],
+            "answer": "b"
+          },
+          {
+            "question": "Quel langage est principalement utilisé pour développer des applications Android ?",
+            "options": ["a) Python", "b) Swift", "c) Java", "d) C#"],
+            "answer": "c"
+          },
+          {
+            "question": "Quel est le nom de l'ordinateur utilisé pour briser le code Enigma pendant la Seconde Guerre mondiale ?",
+            "options": ["a) Colossus", "b) Turing Machine", "c) ENIAC", "d) Bombe"],
+            "answer": "d"
+          },
+          {
+            "question": "Quel est le format d'image non compressé parmi les suivants ?",
+            "options": ["a) JPEG", "b) PNG", "c) BMP", "d) GIF"],
+            "answer": "c"
+          },
+          {
+            "question": "Quel est l'acronyme de l'architecture REST en informatique ?",
+            "options": ["a) Representational State Transfer", "b) Remote Execution and Service Transfer", "c) Resource Extended State Transformation", "d) Rapid Execution Service Technology"],
+            "answer": "a"
+          },
+          {
+            "question": "Quelle était la première entreprise à introduire un disque dur de 1 To ?",
+            "options": ["a) Seagate", "b) Western Digital", "c) IBM", "d) Samsung"],
+            "answer": "a"
+          }
       ]
     
     }
