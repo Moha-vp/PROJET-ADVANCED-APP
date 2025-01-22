@@ -307,7 +307,83 @@
             "options": ["a) Seagate", "b) Western Digital", "c) IBM", "d) Samsung"],
             "answer": "a"
           }
+      ],
+      "Cyber Security": [
+        {
+          "question": "Quel est le rôle principal d'un pare-feu ?",
+          "options": ["a) Sauvegarder les données", "b) Bloquer les logiciels malveillants", "c) Contrôler le trafic réseau", "d) Créer des mots de passe"],
+          "answer": "c"
+        },
+        {
+          "question": "Que signifie HTTPS ?",
+          "options": ["a) Hypertext Transfer Protocol Secure", "b) Hyper Transfer Protocol Secure", "c) Hypertext Transmission Protocol Secure", "d) Hyperlink Transfer Protocol Secure"],
+          "answer": "a"
+        },
+        {
+          "question": "Quel est un exemple d'attaque de type phishing ?",
+          "options": ["a) Un virus qui efface des fichiers", "b) Un email frauduleux demandant des informations confidentielles", "c) Une intrusion dans un réseau Wi-Fi", "d) Une surcharge d'un serveur web"],
+          "answer": "b"
+        },
+        {
+          "question": "Quel est le but d'un cryptage des données ?",
+          "options": ["a) Supprimer les données sensibles", "b) Rendre les données illisibles sans clé", "c) Protéger contre les virus", "d) Réduire la taille des fichiers"],
+          "answer": "b"
+        },
+        {
+          "question": "Quel algorithme est utilisé pour le chiffrement asymétrique ?",
+          "options": ["a) AES", "b)DES", "c) RSA", "d) SHA-256"],
+          "answer": "c"
+        },
+        {
+          "question": "Que signifie VPN ?",
+          "options": ["a) Virtual Protection Network", "b) Virtual Private Network", "c) Verified Protection Node", "d) Virtual Processing Node"],
+          "answer": "b"
+        },
+        {
+          "question": "Quelle est la méthode recommandée pour gérer les mots de passe ?",
+          "options": ["a) Utiliser le même mot de passe pour tout", "b) Les stocker dans un fichier texte", "c) Utiliser un gestionnaire de mots de passe", "d) Ne pas utiliser de mots de passe"],
+          "answer": "c"
+        },
+        {
+          "question": "Quelle technique est utilisée pour protéger un réseau Wi-Fi ?",
+          "options": ["a) WEP", "b) WPA2", "c) FTP", "d) SMTP"],
+          "answer": "b"
+        },
+        {
+          "question": "Qu'est-ce qu'une attaque par force brute ?",
+          "options": ["a) Utiliser un virus pour endommager des fichiers", "b) Essayer de deviner un mot de passe en testant toutes les combinaisons possibles", "c) Intercepter des données en transit", "d) Bloquer un serveur par surcharge"],
+          "answer": "b"
+        },
+        {
+          "question": "Que signifie l'acronyme DOS dans le contexte des cyberattaques ?",
+          "options": ["a) Disk Operating System", "b) Denial of Service", "c) Data Overload System", "d) Dynamic Online Security"],
+          "answer": "b"
+        },
+        {
+          "question": "Quel protocole est utilisé pour sécuriser les communications web ?",
+          "options": ["a) FTP", "b) HTTP", "c) SSH", "d) SSL/TLS"],
+          "answer": "d"
+        },
+        {
+          "question": "Quelle méthode permet de garantir l'intégrité des données ?",
+          "options": ["a) Compression", "b) Chiffrement", "c) Hachage", "d) Sauvegarde"],
+          "answer": "c"
+        },
+        {
+          "question": "Qu'est-ce qu'un ransomware ?",
+          "options": ["a) Un logiciel qui crypte les données en demandant une rançon", "b) Un programme antivirus", "c) Un outil de sauvegarde", "d) Une attaque réseau"],
+          "answer": "a"
+        },
+        {
+          "question": "Que signifie l'acronyme OWASP ?",
+          "options": ["a) Open Web Application Security Project", "b) Online Web Application Secure Protocol", "c) Operating Web Application Safety Program", "d) Optimized Web Application Security Project"],
+          "answer": "a"
+        },
+        {
+          "question": "Quel est le rôle principal d'un certificat SSL ?",
+          "options": ["a) Améliorer la vitesse d'un site", "b) Assurer la confidentialité des données échangées", "c) Bloquer les publicités", "d) Identifier les malwares"],
+          "answer": "b"
+        }
       ]
-    
     }
 }
