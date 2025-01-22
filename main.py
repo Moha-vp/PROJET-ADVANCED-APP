@@ -43,5 +43,4 @@ else:
     print(f"Your score: {score}/{len(questions)}")
     update_user_history(user, score, category)
 
-
 save_users(users_file, users_data)
