@@ -48,7 +48,70 @@ else:
 # Save data
 save_users(users_file, users_data)
 
+def load_questions(file_path):
+    with open(file_path, 'r') as file:
+        return json.load(file)
+
+      
+def quiz_user(questions):
+    score = 0
+    total_questions = len(questions)
     
+    for i, question in enumerate(questions, 1):
+        print(f"\nQuestion {i}/{total_questions}:")
+        print(question["question"])
+        for option in question["options"]:
+            print(option)
+        
+        answer = None
+        start_time = time.time()
+        timer = threading.Timer(30.0, lambda: print("\nTime's up!"))
+        timer.start()
+        
+       
+        while time.time() - start_time < 30:
+            if not answer:
+                remaining_time = 30 - int(time.time() - start_time)
+                print(f"Time remaining: {remaining_time} seconds", end="\r")
+                
+                # Check for input with timeout
+                try:
+                    # Use a small timeout to allow for timer updates
+                    answer = input("\nYour answer (a/b/c/d): ").strip().lower()
+                    if answer in ['a', 'b', 'c', 'd']:
+                        break
+                    else:
+                        print("Invalid input. Please enter a, b, c, or d.")
+                        answer = None
+                except EOFError:
+                    continue
+            
+        timer.cancel()
+        
+        # Handle answer checking
+        if not answer or answer not in ['a', 'b', 'c', 'd']:
+            print("\nTime's up! Moving to next question.")
+            print(f"The correct answer was: {question['answer']}")
+        else:
+            if answer == question['answer']:
+                score += 1
+                print("\nCorrect! ✓")
+            else:
+                print(f"\nWrong! ✗ The correct answer was: {question['answer']}")
+        
+        # Add a small pause between questions
+        if i < total_questions:
+            print("\nNext question in 2 seconds...")
+            time.sleep(2)
+    
+    # Calculate percentage
+    percentage = (score / total_questions) * 100
+    print(f"\nQuiz completed!")
+    print(f"Final Score: {score}/{total_questions} ({percentage:.1f}%)")
+    
+    return score
+ 
+       
     #----------------------------------------anis-------------------------------------------------------#
     # File Paths
 users_file = "data/users.json"
