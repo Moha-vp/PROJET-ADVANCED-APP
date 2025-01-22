@@ -33,3 +33,26 @@ def update_user_history(user, score, category):
         "score": score,
         "category": category
     })
+    
+    #----------------------------------------anis-------------------------------------------------------#
+    # File Paths
+users_file = "data/users.json"
+questions_file = "data/questions.json"
+
+# Load users and questions
+users_data = load_users(users_file)
+questions_data = load_questions(questions_file)
+
+# Check if user exists
+user_id = int(input("Enter your ID: "))
+user = find_user(users_data, user_id)
+
+if user:
+    print(f"Welcome back, {user['name']}!")
+    print("Your History:")
+    for session in user["history"]:
+        print(f"- Date: {session['date']}, Score: {session['score']}, Category: {session['category']}")
+else:
+    name = input("You are new here! Enter your name: ")
+    user = add_new_user(users_data, user_id, name)
+    print(f"Welcome, {name}! Your profile has been created.")
