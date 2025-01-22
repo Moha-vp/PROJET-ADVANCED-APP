@@ -1,5 +1,6 @@
 {
     "categories": {
+
       "Intelligence Artificielle": [
         {
           "question": "Qu'est-ce que l'Intelligence Artificielle (IA) ?",
@@ -231,6 +232,7 @@
             "answer": "a"
           }
       ]
+      
     
     }
 }
