@@ -33,6 +33,8 @@ def update_user_history(user, score, category):
         "score": score,
         "category": category
     })
+
+# Select category
 category = input("Choose a category (Algorithmique, Mathematique, Culture Générale,Intelligence Artificielle,Cyber Security): ")
 questions = questions_data["categories"].get(category, [])
 
@@ -43,4 +45,5 @@ else:
     print(f"Your score: {score}/{len(questions)}")
     update_user_history(user, score, category)
 
+# Save data
 save_users(users_file, users_data)
